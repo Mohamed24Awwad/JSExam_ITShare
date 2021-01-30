@@ -69,9 +69,9 @@ class Saving extends Account
 
 
 /**
- * ===================================
- * -------- Question 05/Q4-------------
- * ===================================
+ * =====================================================================================
+ * ---------------------------- Question 05/Q4-----------------------------------------
+ * =====================================================================================
  */
 
 class Time {
@@ -110,7 +110,7 @@ class Time {
     this.second = second;
   }
   toString() {
-    return `hh:${this.hour} mm:${this.minute} ss:${this.second}`;
+    return `hh:${this.hour} mm:${this.minute} ss:${this.second}`; // "hh:mm:ss"
   }
   nextSecond() {
     return this.second ;
