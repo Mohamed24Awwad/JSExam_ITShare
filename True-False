@@ -1,5 +1,5 @@
-========================= Question 01==================================
-=======================================================================
+===================================================== Question 01================================================================================================
+=================================================================================================================================================================
 
 1- (False) It's the Definition Of Encapsulation But Abstration care    about what it to do to isolate the impact of changes.
 
@@ -20,9 +20,11 @@
 ------------------------------------------------------------------------
 6- (True) as the object may excute some of it's methods and variables and hide others 
 
--------------------------------------------------------------------------7- (True) state and methods lean agenst the core concept of class and all of it's subclass so it definitly true.
+-------------------------------------------------------------------------
+7- (True) state and methods lean agenst the core concept of class and all of it's subclass so it definitly true.
 
--------------------------------------------------------------------------8-(True) defined as a term of interface which is a container of methods collection .
+-------------------------------------------------------------------------
+8-(True) defined as a term of interface which is a container of methods collection .
 =========================================================================
 
 
