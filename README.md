@@ -8,7 +8,7 @@ This is a private Repo For only Exams Purpose
 Pull to your Local Repo 
 -----------------------
 ```
-git pull https://github.com/Mohamed24Awwad/jsExam-itshare-.git 
+git pull https://github.com/Mohamed24Awwad/JSExam_ITShare.git 
 
 ```
 
