@@ -1,0 +1,117 @@
+========================= Question 01==================================
+=======================================================================
+
+1- (False) It's the Definition Of Encapsulation But Abstration care    about what it to do to isolate the impact of changes.
+
+-----------------------------------------------------------------------
+2- (True) as Abstration Aim to reduce complextiy  in order to keep it abstracted from any Details.
+
+-----------------------------------------------------------------------
+3- (False) as Static Methods only used as a utility classes and passed as a parameters so the overloading process denied with that type of method.
+
+-----------------------------------------------------------------------
+4- ()
+
+
+
+-----------------------------------------------------------------------
+5- (True) as it group every related function into a unit to increase reusability of code and also reduce complexity 
+
+------------------------------------------------------------------------
+6- (True) as the object may excute some of it's methods and variables and hide others 
+
+-------------------------------------------------------------------------7- (True) state and methods lean agenst the core concept of class and all of it's subclass so it definitly true.
+
+-------------------------------------------------------------------------8-(True) defined as a term of interface which is a container of methods collection .
+=========================================================================
+
+
+
+
+
+================================ Question 03 ============================
+=========================================================================
+
+1-
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
+2- Abstraction And Encapsulation 
+---------------------------------------------------------------
+
+// Abstraction Level
+
+interface Shape{                             
+   area() : number;
+   circumference() : number;
+   displayInfo() : void;
+}                    
+                             ----------------------------------
+
+
+// Encapsulation Level 
+   public area() : number{
+       return Math.PI * Math.pow(this.raduis , 2);
+   }
+
+   public circumference() : number{
+       return 2 * Math.PI * this.raduis;
+   }
+
+
+-----------------------------------------------------------------
+3- - Static and Instance Members
+-----------------------------------------------------------------
+
+class Student {
+   static Number;              //Static Properity 
+     
+   static getNumber(){         // Static Method  
+      console.log('I'm a static method')
+   }
+   constructor(name,age){
+      this.name = name;
+      this.age = age ; 
+   }
+
+   info(){
+      return `Student Name :  ${this.name} and Age : ${this.age}`;
+   };
+}
+
+Student.getNumber();      // Directly Access class Student 
+
+
+
+
+
+
+
+
+================================ Question 05 ============================
+=========================================================================
+ Code Snippet 
+
+1) Error 
+
+2) a series starts from (10) as the iteration starts ending with (1)
+                          9
+                          8
+                          7
+                          6
+                          5
+                          4
+                          3
+                          2
+                          1
