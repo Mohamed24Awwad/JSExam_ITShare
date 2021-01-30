@@ -1,3 +1,73 @@
+class Account{
+   protected cust_name;
+   protected acc_no;
+   protected acc_type;
+   protected balance;
+   constructor(cust_name:string,acc_no:number,acc_type:string,balance:number){
+     this.cust_name=cust_name;
+     this.acc_no=acc_no;
+     this.acc_type=acc_type;
+     this.balance=balance;
+   }
+ withdraw(){ }
+ deposit():void{}
+  display() {}
+ updateBal(){}
+}
+class Current extends Account
+{
+   protected serviceCharge:number;
+   protected cheqbook:number;
+   
+   constructor(cust_name:string,acc_no:number,acc_type:string,balance:number,serviceCharge:number,cheqbook:number){
+     super(cust_name,acc_no,acc_type,balance);
+     this.cust_name=cust_name;
+     this.acc_no=acc_no;
+     this.acc_type=acc_type;
+     this.balance=balance;
+     this.serviceCharge=serviceCharge;
+     this.cheqbook=cheqbook;
+   }
+
+    issueCheque():void{}
+   checkBal():void{}
+   imposePenalty():void{}
+}
+class Saving extends Account
+{
+   protected interest;
+   constructor(cust_name:string,acc_no:number,acc_type:string,balance:number,interest:number){
+     super(cust_name,acc_no,acc_type,balance);
+     this.cust_name=cust_name;
+     this.acc_no=acc_no;
+     this.acc_type=acc_type;
+     this.balance=balance;
+     this.interest=interest;
+   }
+ computeInterest(){}
+  depositInterest()  {}   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * ===================================
  * -------- Question 05/Q4-------------
